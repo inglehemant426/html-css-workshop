@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+::-webkit-input-placeholder {
+  color: #000;
+  font-style: italic;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #000;
+  font-style: italic;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #000;
+  font-style: italic;
+}
+:-ms-input-placeholder {
+  color: #000;
+  font-style: italic;
+}
+.captionImages figure {
+  width: 26.99%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.captionImages img {
+  width: 100%;
+  border-radius: 100%;
+  transition: filter 2s;
+}
+.captionImages img:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.captionImages figcaption {
+  text-align: center;
+  color: #7D7D7D;
+}
+footer {
+  background: #58595B;
+}
+footer > section:not(:last-child) {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+}
+footer > section:not(:last-child) form {
+  padding-left: 30px;
+  color: #959595;
+}
+footer > section:not(:last-child) form div {
+  margin-bottom: 5px;
+}
+footer > section:not(:last-child) form div label {
+  width: 16%;
+  display: inline-block;
+}
+footer > section:not(:last-child) form div input {
+  padding: 5px;
+  background: #ACACAC;
+  border: 1px solid transparent;
+  color: #000;
+  border-radius: 8px;
+}
+footer > section:not(:last-child) form div input[type='submit'] {
+  border-radius: 9px;
+  border: 1px solid transparent;
+  padding: 9px 30px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #054BA1;
+}
+footer > section:not(:last-child) form div:last-child {
+  text-align: center;
+  margin-top: 20px;
+}
+footer p {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+footer > section:first-child {
+  padding-left: 60px;
+}
+footer > section:last-child {
+  text-align: center;
+  color: #959595;
+}
+footer > section:last-child ul li {
+  display: inline-block;
+  padding: 4px 5px;
+  border-right: 1px solid #959595;
+  line-height: 7px;
+}
+footer > section:last-child ul li:last-child {
+  border-right: none;
+}
+footer ul {
+  padding-left: 0px;
+}
+footer ul li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #959595;
+}
+footer h3 {
+  color: #fff;
+  font-family: "robotoregular";
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .headerImages img:first-child {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .headerImages img:nth-child(2) {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .welcomeIMCSec h1 {
+    color: green;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .headerIcons {
+    display: none;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .mainNav ul {
+    padding-left: 0px;
+    height: auto;
+    line-height: 32px;
+    background: transparent;
+  }
+  .mainNav ul li a {
+    padding: 0px 6px;
+    background: #d86f69;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .mainNav ul li a.active {
+    color: #000;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  .mainNav ul {
+    padding-left: 0px;
+    height: auto;
+    line-height: 32px;
+    background: transparent;
+  }
+  .mainNav ul li a {
+    padding: 0px 6px;
+    background: #d86f69;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .mainNav ul li a.active {
+    color: #000;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .searchForm {
+    width: 291px;
+  }
+  .searchForm input[type="search"] {
+    padding: 8px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  .searchForm input[type="search"] {
+    padding: 8px;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .sidebar {
+    width: auto;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  .sidebar {
+    width: 49%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .captionImages figure {
+    width: auto;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  footer > section:not(:last-child) {
+    display: block;
+    width: auto;
+    padding-left: 40px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  footer > section:not(:last-child) {
+    padding-left: 10px;
+  }
+}
+/****/
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  .welcomeIMCSec {
+    width: 49%;
+  }
+}
+/****/
+@media only screen and (min-width: 901px) {
+  body {
+    background: #f4f4f4;
+  }
+}
